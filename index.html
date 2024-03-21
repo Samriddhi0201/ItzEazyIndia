@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Itz India Assignment</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>Student Registration Portal</h1>
+    <div class="progress-container">
+        <div id="progressBar"></div>
+    </div>
+<div id="successPopup" class="overlay">
+    <div class="popup">
+      <span class="close" >&times;</span>
+      <h2>Record Added Successfully</h2>
+      <p>Your record has been added successfully.</p>
+    </div>
+  </div>
+
+<div id="screen1"  class="container active screen1">
+        <div class="input-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <div class="input-group">
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" required>
+        </div>
+        <div class="input-group">
+            <label>Select Gender:</label>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female" required>
+            <label for="female">Female</label>
+        </div>
+        <div class="input-group">
+            <label>Do You pass Any test for admission:</label>
+            <input type="radio" id="yes" name="admission" value="yes" required>
+            <label for="YEs">Yes</label>
+            <input type="radio" id="no" name="admission" value="no" required>
+            <label for="No">No</label>
+        </div>
+        <div class="input-group">
+            <label for="qualification">Qualification:</label>
+            <select id="qualification" name="qualification" required>
+            <option value="">Select</option>
+            <option value="highschool">High School</option>
+            <option value="undergrad">Undergraduate</option>
+            <option value="graduate">Graduate</option>
+            </select>
+        </div>
+        <div class="input-group">
+            <label for="subject">Subject:</label>
+            <select id="subject" name="subject" required>
+            <option value="">Select</option>
+            <option value="math">Math</option>
+            <option value="science">Science</option>
+            <option value="history">History</option>
+            </select>
+        </div>
+    </div>
+</div>
+
+<div id="screen2" class="container">
+   
+   <div class="input-group">
+    <label for="name">Class:</label>
+    <input type="text" id="name" name="name" required>
+  </div> 
+  
+  <div class="input-group">
+    <label>have you  any gap:</label>
+    <input type="radio" id="yes" name="gap" value="yes" required>
+    <label for="Yes">Yes</label>
+    <input type="radio" id="no" name="gap" value="yes" required>
+    <label for="No">No</label>
+  </div>
+  <div class="input-group">
+    <label for="name">Enter the no of gaps:</label>
+    <input type="text" id="name" name="name" required>
+  </div>
+  <div class="input-group">
+    <label for="qualification">Loaction</label>
+    <select id="qualification" name="qualification" required>
+      <option value="">Select</option>
+      <option value="highschool">Delhi</option>
+      <option value="undergrad">Gurgram</option>
+      <option value="graduate">Kanpur</option>
+    </select>
+  </div>
+  <div class="input-group">
+    <label for="subject">State:</label>
+    <select id="subject" name="subject" required>
+      <option value="">Select</option>
+      <option value="math">UttarPradesh</option>
+      <option value="science">Delhi</option>
+      <option value="history">Haryana</option>
+    </select>
+  </div>
+  <button id="backButton">Back</button>
+</div>
+
+<div id="screen3" class="container">
+   
+  <div class="input-group">
+    <label>Select Gender:</label>
+    <input type="radio" id="male" name="gender" value="male" required>
+    <label for="male">Male</label>
+    <input type="radio" id="female" name="gender" value="female" required>
+    <label for="female">Female</label>
+  </div>
+  <div class="input-group">
+    <label>Do you want to submit:</label>
+    <input type="radio" id="yes" name="submit" value=yes required>
+    <label for="yes">Yes</label>
+    <input type="radio" id="no" name="submit" value="no" required>
+    <label for="no">No</label>
+  </div>
+  <button id="backButton">Back</button>
+  </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
