@@ -5,7 +5,7 @@
     box-sizing: border-box;
   }
   body{
-    background-image: url('./assets/bgimage.jpg');
+    background-image: url('bgimage.jpg');
     background-size: cover;
     height: 100%;
   
